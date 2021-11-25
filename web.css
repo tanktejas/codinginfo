@@ -248,6 +248,14 @@ nav .fas {
     font-size: 36px;
   }
 }
+.navlink i{
+  display:none;
+}
+@media (max-width:677px){
+  .navlink i{
+    display:block !important;
+  }
+}
 @media (max-width: 670px) {
   .body h1 {
     font-size: 34px;
